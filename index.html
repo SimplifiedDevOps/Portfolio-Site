@@ -1,67 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Your Name</title>
-    <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <a href="#home" class="logo">PikuDataIQ</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PikuDataIQ Hub</title>
+
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#" class="logo">Welcome to PikuDataIQ Hub</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Qualifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contactme">Contact Me</a>
+      </nav>
     </header>
 
     <!-- Home Section -->
-    <section id="home">
-        <h1>Hi, I'm Piku</h1>
-        <p>Aspiring Data Scientist and AI Enthusiast</p>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm Piku Maity</h1>
+        <h3><span class="multiple-text"></span></h3>
+        <p>Experienced Data Scientist, skilled in deriving insights from intricate datasets. Proficient in predictive analytics, AI, ML, and data visualization.</p>
+        <div class="social-media">
+          <a href="https://youtube.com/@pikudataiq"><i class='bx bxl-youtube'></i></a>
+          <a href="https://www.linkedin.com/in/pikumaity/"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/picoders1"><i class='bx bxl-github'></i></a>
+          <a href="https://twitter.com/PikuMaity5"><i class='bx bxl-twitter'></i></a>
+          <a href="https://www.instagram.com/piku.chiku.45/"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1qmaqBAy2NNVfeHqtKZKzfGs7ZV5Cemxn/view?usp=sharing" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/Ashwani.jpg" alt="Ashwani Kumar Vardhineni">
+      </div>
     </section>
 
     <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief introduction about your experience and background.</p>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/pi6.jpg" alt="Piku Maity">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Data Scientist!</h3>
+        <p>I'm an R&D Data Scientist, proficient in delivering successful projects across AI/ML, Data Science, and Business Intelligence...</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Machine Learning Intern at XYZ - 2023</li>
-            <li>Data Scientist at ABC Inc. - 2022</li>
-        </ul>
+    <!-- Education & Experience Section -->
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+      <div class="education-row">
+        <!-- Education Column -->
+        <div class="education-column">
+          <h3 class="title">Education</h3>
+          <div class="education-box">
+            <div class="education-content">
+              <div class="year"><i class='bx bxs-calendar'></i> Feb 2021 - Sep 2023</div>
+              <h3>MCA - RVCE</h3>
+              <p>Master's degree in Computer Applications from RV College of Engineering, Bangalore.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div class="education-column">
+          <h3 class="title">Experience</h3>
+          <div class="education-box">
+            <div class="education-content">
+              <div class="year"><i class='bx bxs-calendar'></i> Mar 2024 - Present</div>
+              <h3>R&D Data Scientist - CSG</h3>
+              <p>Implemented predictive modeling for KSRTC passenger demand forecasting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="assets/images/project1.png" alt="Project 1">
-            <p>Project Description</p>
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img src="images/ipp1.jpg" alt="AI HealthBot">
+          <div class="projects-layer">
+            <h4>AI Powered HealthBot System</h4>
+            <a href="https://github.com/picoders1/AI-Driven-HealthBot"><i class='bx bx-link-external'></i></a>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">Service <span>Portfolio</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bxl-python'></i>
+          <h3>Data Science Solutions</h3>
+          <p>Discover the power of predictive analytics...</p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/{your-id}" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="_replyto" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <section class="contactme" id="contactme">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="https://formsubmit.co/0e84bbe1ea2f1c24db4c79dfb953099a" method="POST">
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input type="email" name="Email" placeholder="Email Address" required />
+        </div>
+        <textarea name="Message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
     </section>
 
-    <script src="js/main.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2024 PikuDataIQ | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
